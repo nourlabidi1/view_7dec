@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.HomeController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="378.0" style="-fx-background-color: #034f#3F729B84;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" text="Bienvenue  chez " textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="74.0" text="Nos Services" textFill="#aba3ff">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="168.0" text="Notre équipe" textFill="#aba3ff">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="300.0" text="Nos partenaires" textFill="#aba3ff">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="257.0" layoutY="358.0" style="-fx-border-color: #187dac;" text="Nous contacter" textFill="WHITE" />
+            <Label layoutX="34.0" layoutY="273.0" text="Nour El Houda LABIDI" textFill="WHITE" />
+            <Label layoutX="257.0" layoutY="273.0" text="Majdi Khelil" textFill="WHITE" />
+            <ImageView fitHeight="67.0" fitWidth="67.0" layoutX="69.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/307168026_5683425285084942_3284014623569689443_n.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="50.0" layoutX="263.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/315904824_10217168014912810_3566138667081196131_n.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="11.0" layoutY="331.0" text="Ministère de l'Enseignement supérieur" textFill="WHITE" />
+            <Label layoutX="11.0" layoutY="363.0" text="Ecole Nationale d'Ingénieurs de Carthage " textFill="WHITE" />
+            <Label layoutX="19.0" layoutY="104.0" text="Cette application est  à caractère éducatif, ayant comme objectif" textFill="WHITE" />
+            <Label layoutX="20.0" layoutY="122.0" text="principal l’apprentissage et la révision des matières" textFill="WHITE" />
+            <Label layoutX="44.0" layoutY="151.0" text="Label" />
+            <JFXButton buttonType="RAISED" layoutX="250.0" layoutY="154.0" style="-fx-border-color: #187dac;" text="Plus d'informations" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane opacity="0.83" prefHeight="400.0" prefWidth="210.0" style="-fx-border-color: #187dac;" styleClass="root" stylesheets="@login.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="35.0" layoutX="8.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@318183721_1346929282728945_1122290185977773052_n.png" />
+               </image>
+            </ImageView>
+            <JFXButton buttonType="RAISED" layoutX="68.0" layoutY="14.0" style="-fx-border-color: #187dac;" text="Inscription" textFill="#13188e" />
+            <JFXButton buttonType="RAISED" layoutX="148.0" layoutY="14.0" style="-fx-border-color: #187dac;" text="Connexion" textFill="#13188e" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

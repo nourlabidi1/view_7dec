@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="398.0" prefWidth="600.0" style="-fx-background-color: #c2d4dd;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #36486b;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-1.0" prefHeight="51.0" prefWidth="600.0" style="-fx-background-color: #034f#3F729B84;" text="Poster un cours" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Arial Unicode MS" size="19.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="101.0" fitWidth="92.0" layoutX="508.0" layoutY="-1.0" opacity="0.56" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/ppp.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="47.0" layoutY="102.0" prefHeight="34.0" prefWidth="92.0" text="Nom cours" textFill="#181686">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="182.0" prefHeight="34.0" prefWidth="92.0" text="Matière" textFill="#181686">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="265.0" prefHeight="34.0" prefWidth="92.0" text="Fichier" textFill="#181686">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="151.0" layoutY="107.0" promptText="Nom" />
+      <TextField layoutX="151.0" layoutY="186.0" promptText="Matière" />
+      <TextField layoutX="151.0" layoutY="269.0" promptText="Fichier" />
+      <Button layoutX="371.0" layoutY="329.0" mnemonicParsing="false" text="Poster" />
+   </children>
+</AnchorPane>
